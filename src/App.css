@@ -1,0 +1,125 @@
+nav {
+  background-color: #333;
+  padding: 15px;
+  text-align: center;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.link:hover {
+  color: #f8c146;
+}
+
+.page {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+.page h1 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+/* Page container */
+body {
+  margin: 0;
+  font-family: "Raleway", sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Search bar */
+form {
+  display: flex;
+  justify-content: center;
+  margin: 20px auto;
+}
+
+input[type="text"] {
+  padding: 10px 15px;
+  width: 300px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+/* Buttons filter */
+.cont {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.change {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 14px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.change:hover {
+  background-color: #45a049;
+}
+
+/* Products grid */
+.products {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Product cards */
+.product-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  padding: 15px;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.product-card:hover {
+  transform: scale(1.03);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product-card h3 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.product-card h4 {
+  font-size: 16px;
+  color: #666;
+  margin: 0;
+}
+
+li {
+   list-style-type: none;
+}
