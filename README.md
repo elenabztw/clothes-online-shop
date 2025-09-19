@@ -41,6 +41,9 @@ src/
 
 The app will run at **http://localhost:3000**
 
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/9e74f5c6-968d-49fd-88ec-d5a1ae94135e" />
+
+
 ---
 
 ## Usage
